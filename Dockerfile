@@ -5,7 +5,7 @@ WORKDIR app
 RUN npm i yarn -g
 RUN npm i jest -g
 
-COPY ../js-clients .
+COPY ./js-clients .
 
 RUN yarn
 
